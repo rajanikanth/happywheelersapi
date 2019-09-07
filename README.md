@@ -1,5 +1,15 @@
 # happywheelersapi
 
+Clone this repo 
+and run ./mvnw to start the server 
+
+Run with Jar
+
+./mvnw -Pprod clean verify
+java -jar target/happywheelersapi-0.0.1-SNAPSHOT.jar
+
+
+
 This application was generated using JHipster 6.2.0, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v6.2.0](https://www.jhipster.tech/documentation-archive/v6.2.0).
 
 This is a "gateway" application intended to be part of a microservice architecture, please refer to the [Doing microservices with JHipster][] page of the documentation for more information.
