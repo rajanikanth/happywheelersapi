@@ -149,10 +149,12 @@ You can use Docker to improve your JHipster development experience. A number of 
 For example, to start a mongodb database in a docker container, run:
 
     docker-compose -f src/main/docker/mongodb.yml up -d
+    docker-compose -f src/main/docker/elasticsearch.yml up -d
 
 To stop it and remove the container, run:
 
     docker-compose -f src/main/docker/mongodb.yml down
+    docker-compose -f src/main/docker/elasticsearch.yml down
 
 You can also fully dockerize your application and all the services that it depends on.
 To achieve this, first build a docker image of your app by running:
