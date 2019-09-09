@@ -9,6 +9,16 @@ Run with Jar
 java -jar target/happywheelersapi-0.0.1-SNAPSHOT.jar
 
 
+Install docker-compose so you can use db and elasticsearch easily with the dev
+
+docker-compose -f src/main/docker/mongodb.yml up -d
+docker-compose -f src/main/docker/elasticsearch.yml up -d
+To stop it and remove the container, run:
+
+docker-compose -f src/main/docker/mongodb.yml down
+docker-compose -f src/main/docker/elasticsearch.yml down
+
+
 
 This application was generated using JHipster 6.2.0, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v6.2.0](https://www.jhipster.tech/documentation-archive/v6.2.0).
 
